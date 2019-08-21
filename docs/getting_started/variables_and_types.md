@@ -197,7 +197,9 @@ True
 
 ### Int
 
-An `int` is any whole integer between negative infinite and infinite. We can perform arithmetic operations on integers, use them as iterators to loop over a collection. Note that we don't use quotation marks when writing integers.
+An `int` is any whole integer between negative infinite and infinite. We can
+perform arithmetic operations on integers, or use them as iterators to loop over
+a collection. Note that we don't use quotation marks when writing integers.
 
 ```python
 2 + 2
@@ -247,5 +249,6 @@ Floats are floating point numbers; real numbers with a franctional component.
 
 The problem with a lot of floating point numbers is precision. The second expression above results in an infinite number of decimal places, which is impossible to fit into memory because...ya know...infinite. Brain melting existential stuff. Anyways, `float` results are trimmed to 15 points of precision. Maybe 17, depending on whatever C compiler underpins your Python installation. If you need more than that, a number of libraries exist to help, but we'll cover that in a later section.
 
-## Collections
-TODO: Lists, tuples, dictionaries
+## A brief mention on generics
+
+Generics are a convenience Lists, tuples, dictionaries
