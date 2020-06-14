@@ -110,7 +110,7 @@ Since `True and False` evaulates to `False`, and we have an `else` defined, the 
 Eh, not ready to eat yet.
 ```
 
-Let's change the scenario slightly. What if the above problem involved sadistic parents who don't care if you're hungry when dinner time rolls around and will make you eat dinner because they say so? In that case, if **either** condition is met, you're going to eat. For this scenario, the logical operator `or` is required.
+Let's change the scenario slightly. What if the above problem involved sadistic parents who don't care if you're hungry when dinner time rolls around and will make you eat dinner because it's dinner time? In that case, if **either** condition is met, you're going to eat. For this scenario, the logical operator `or` is required.
 
 ```python
 if im_hungry or the_time >= time_to_eat:
